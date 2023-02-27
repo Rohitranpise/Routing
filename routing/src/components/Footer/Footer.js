@@ -4,16 +4,24 @@ function Footer() {
   return (
     <>
       <div
-        style={{ backgroundColor: "wheat", marginTop: 40, marginBottom: 20 }}
+        style={{ backgroundColor: "wheat", marginTop: 40, marginBottom: 80 }}
       >
-        <div style={{ marginLeft: 40, marginRight: 100 }}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga maiores
-          optio culpa nostrum? Velit harum ipsum nesciunt voluptates a odio,
-          culpa maxime. Amet ex earum quas placeat praesentium ratione ducimus
-          vel culpa dolore repellat accusantium reprehenderit, eveniet molestiae
-          ab incidunt!
+        <h4 style={{ marginLeft: 70, marginBottom: 30 }}>RestApp</h4>
+        <div
+          style={{
+            marginLeft: 70,
+            marginRight: 100,
+            marginTop: 8,
+            fontSize: 18,
+          }}
+        >
+          For over a decade now, we’ve been empowering our customers in
+          discovering new tastes and experiences across countries. By putting
+          together meticulous information for our customers, we enable them to
+          make an informed choice.
         </div>
-        <h6 style={{ marginLeft: 40, marginTop: 50 }}>header</h6>
+        <span style={{ marginLeft: 70, marginTop: 50 }}>contact Us: </span>
+        <span>rest@food345.com</span>
       </div>
     </>
   );

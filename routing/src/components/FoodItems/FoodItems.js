@@ -13,7 +13,6 @@ import { useNavigate } from "react-router-dom";
 import inputContext from "../../context/inputContext";
 import Sample from "./Sample";
 import Modal from "@mui/material/Modal";
-import Footer from "../Footer/Footer";
 
 function FoodItems(e) {
   const [open, setOpen] = React.useState(false);
@@ -105,7 +104,6 @@ function FoodItems(e) {
         })}
       </span>
       <span>
-        <Footer />
         <Sample first={first} />
       </span>
     </>

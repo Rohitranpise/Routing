@@ -42,7 +42,7 @@ function RestaurantsData() {
                 className="ratings"
               />
               <CardActions>
-                <Button size="small" onClick={() => navigate("/detail")}>
+                <Button size="small" onClick={() => navigate("/food")}>
                   details
                 </Button>
                 <Button size="small" onClick={() => navigate("/food")}>
