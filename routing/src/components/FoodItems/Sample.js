@@ -16,6 +16,7 @@ import {
 import { blue } from "@mui/material/colors";
 
 function Sample({ first }) {
+  console.log(first);
   //modal
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -42,9 +43,8 @@ function Sample({ first }) {
   // console.log(first);
 
   const deleteOne = (e, item) => {
-    console.log(e.target.item);
-    console.log(e.target.id);
-    console.log(item);
+    let removedItem = first.find({ id: item.id });
+    console.log(removedItem);
   };
 
   const addOneToCart = (e) => {
@@ -120,8 +120,7 @@ function Sample({ first }) {
                         fontSize: 30,
                         cursor: "pointer",
                       }}
-                      onClick={(e, item) => deleteOne(e, item)}
-                      value={item.id}
+                      onClick={(e) => deleteOne(e, item)}
                     ></DeleteIcon>
                   </span>
                   <span style={{ marginLeft: -250 }}>
