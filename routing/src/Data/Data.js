@@ -1,0 +1,58 @@
+const Data = [
+  {
+    id: 1,
+    url: "https://tse1.mm.bing.net/th?id=OIP.1FvQP3c1gPfRuRfNkwZEBAHaFt&pid=Api&P=0",
+    Address: "pune",
+    Name: "Indian Accent",
+    type: "Restaurant",
+    description: `Regularly ranked as one of Indias best modern restaurants, the lavish Indian Accent in the Manor hotel turns to a number of other countries and cultures when developing its fusion fare.`,
+    ratings: 3,
+  },
+  {
+    id: 2,
+    url: "https://tse4.mm.bing.net/th?id=OIP.dDiA2WZkSQ4hsl9lvp8xjgHaE8&pid=Api&P=0",
+    Address: "Mumbai",
+    Name: "Neel",
+    type: "Bar",
+    description: `One of Indias leading culinary lights since its founding in 1977,  Bukhara, located within the ITC Maurya Hotel, serves cuisine inspired by the rugged Northwest frontier.`,
+    ratings: 5,
+  },
+  {
+    id: 3,
+    url: "https://media.architecturaldigest.com/photos/5b04347ca7a427430454e50f/master/pass/GettyImages-182977836.jpg",
+    Address: "Delhi",
+    Name: "Shandar",
+    type: "Restaurant",
+    description: `Hidden away in a labyrinthine quarter of old Mumbai, The result is a unique blend that showcases the region’s incredible diversity.`,
+    ratings: 4,
+  },
+  {
+    id: 4,
+    url: "https://media.architecturaldigest.com/photos/5b04347ca7a427430454e50f/master/pass/GettyImages-182977836.jpg",
+    Address: "Delhi",
+    Name: "Shandar",
+    type: "Restaurant",
+    description: `Hidden away in a labyrinthine quarter of old Mumbai, The result is a unique blend that showcases the region’s incredible diversity.`,
+    ratings: 4,
+  },
+  {
+    id: 5,
+    url: "https://tse4.mm.bing.net/th?id=OIP.dDiA2WZkSQ4hsl9lvp8xjgHaE8&pid=Api&P=0",
+    Address: "Mumbai",
+    Name: "Neel",
+    type: "Bar",
+    description: `One of Indias leading culinary lights since its founding in 1977,  Bukhara, located within the ITC Maurya Hotel, serves cuisine inspired by the rugged Northwest frontier.`,
+    ratings: 2,
+  },
+  {
+    id: 6,
+    url: "https://media.architecturaldigest.com/photos/5b04347ca7a427430454e50f/master/pass/GettyImages-182977836.jpg",
+    Address: "Delhi",
+    Name: "Shandar",
+    type: "Restaurant",
+    description: `Hidden away in a labyrinthine quarter of old Mumbai, The result is a unique blend that showcases the region’s incredible diversity.`,
+    ratings: 3.5,
+  },
+];
+
+export default Data;
